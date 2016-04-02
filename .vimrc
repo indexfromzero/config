@@ -31,10 +31,12 @@ noremap <C-H> <C-W>h
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>rv :source $MYVIMRC<cr>
 nnoremap <leader>st :Startify<cr>
-nnoremap <leader>nt :NERDTree<cr>
-nnoremap <leader>ex :close<cr>
+nnoremap <leader>nt :NERDTreeToggle<cr>
+nnoremap <leader>ex :q<cr>
 nnoremap <leader>hs :split<cr>
 nnoremap <leader>vs :vsplit<cr>
+nnoremap <leader>tag :CtrlPTag<cr>
+nnoremap <leader>tb :TagbarToggle<cr>
 
 "|----------| Abrv |----------| 
 iabbrev --- "\|----------\| AWORD \|----------\|
